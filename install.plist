@@ -1,1 +1,31 @@
-<string>https://www.dropbox.com/scl/fi/ho9uhoelwxrbn6kikkb1z/8-Ball-Pool_56.18.2_Adam-tech.ipa?rlkey=n12i32qfjkjjenq76fsfjlyrm&amp;st=0qt094jg&amp;dl=1</string>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string><![CDATA[https://www.dropbox.com/scl/fi/ho9uhoelwxrbn6kikkb1z/8-Ball-Pool_56.18.2_Adam-tech.ipa?rlkey=n12i32qfjkjjenq76fsfjlyrm&st=0qt094jg&dl=1]]></string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.adam.tech.pool</string>
+                <key>bundle-version</key>
+                <string>56.18.2</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>8 Ball Pool Adam Tech</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
