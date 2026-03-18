@@ -94,7 +94,11 @@ body::before {
   backdrop-filter: blur(25px);
   background: rgba(0, 0, 0, 0.05);
   z-index: 0;
-}    
+} 
+body > * {
+    position:relative;
+    z-index:1;
+}
 </style>
 </head>
 <body>
