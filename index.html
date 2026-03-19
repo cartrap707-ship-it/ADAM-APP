@@ -99,6 +99,16 @@ body > * {
     position:relative;
     z-index:1;
 }
+/* منع تحديد النص أو النسخ في كل الصفحة */
+* {
+    -webkit-user-select: none; /* لمنع تحديد النص في الأيفون */
+    -webkit-touch-callout: none; /* هذا هو السر: يمنع ظهور القائمة عند الضغط المطول */
+}
+
+/* استثناء الأزرار عشان تضل قابلة للضغط العادي */
+.btn {
+    pointer-events: auto;
+}    
 </style>
 </head>
 <body>
