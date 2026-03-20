@@ -154,10 +154,10 @@ body > * {
 <script src="https://pl28947903.profitablecpmratenetwork.com/c0/b2/e8/c0b2e819baf06f797310bb01e94aa4d7.js"></script>    
 <script>
 function downloadApp(plistUrl) {
-    const hasSeenAd = localStorage.getItem('ad_seen');
+    const hasSeenAd = sessionStorage.getItem('ad_seen');
 
     if (!hasSeenAd) {
-        localStorage.setItem('ad_seen', 'true');
+        sessionStorage.setItem('ad_seen', 'true');
         window.open('https://www.profitablecpmratenetwork.com/zcwiuc63gb?key=95d50d5b8dc10f6c24d76a6837f98fd7', '_blank');
         
         alert("Please click 'Install' again to start your download.");
@@ -165,6 +165,6 @@ function downloadApp(plistUrl) {
         window.location.href = 'itms-services://?action=download-manifest&url=' + plistUrl;
     }
 }
-</script>  
+</script>
 </body>
 </html>
