@@ -152,10 +152,6 @@ body > * {
        <a href="javascript:void(0)" onclick="downloadApp('https://raw.githubusercontent.com/cartrap707-ship-it/ADAM-APP/main/video%20star.plist')" class="btn">Install</a>
     </div>    
 <script>
-function installApp(plistUrl) {
-    window.location.href = "itms-services://?action=download-manifest&url=" + plistUrl;
-}
-<script>
 function downloadApp(plistUrl) {
     const hasSeenAd = localStorage.getItem('ad_seen');
 
@@ -163,14 +159,11 @@ function downloadApp(plistUrl) {
         localStorage.setItem('ad_seen', 'true');
         window.open('https://www.profitablecpmratenetwork.com/zcwiuc63gb?key=95d50d5b8dc10f6c24d76a6837f98fd7', '_blank');
         
-        // Optional: Notify the user to click again after the ad opens
-        alert("Ad opened. Please click 'Install' again to start your download.");
+        alert("Please click 'Install' again to start your download.");
     } else {
         window.location.href = 'itms-services://?action=download-manifest&url=' + plistUrl;
     }
 }
-</script>
-
-<a href="javascript:void(0)" onclick="downloadApp('https://raw.githubusercontent.com/cartrap707-ship-it/ADAM-APP/main/install.plist')" class="btn">Install</a>    
+</script>  
 </body>
 </html>
