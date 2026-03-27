@@ -11,15 +11,15 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://www.dropbox.com/scl/fi/j4qza490ba35ld8yfhbp7/Video-Star_15.0.5_Adam-tech.ipa?rlkey=x11g4ffxbhph1ddt8mr2lvu65&amp;dl=1</string>
+                    <string>https://www.dropbox.com/scl/fi/bay2p22t8qqxby8180hal/Video-Star_12.0.2_Adam-tech.ipa?rlkey=09zxr83mb1ehcwsqf5j2l9htn&amp;dl=1</string>
                 </dict>
             </array>
             <key>metadata</key>
             <dict>
                 <key>bundle-identifier</key>
-                <string>com.videostar.adam.tech</string>
+                <string>com.Adam-tech.videostar1</string>
                 <key>bundle-version</key>
-                <string>15.0.5</string>
+                <string>12.0.2</string>
                 <key>kind</key>
                 <string>software</string>
                 <key>title</key>
