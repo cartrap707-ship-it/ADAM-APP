@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://www.dropbox.com/scl/fi/daaomdwpem9mv08eex95j/BHTikTokPlus_44.4.0_adam-tech.ipa?rlkey=s4clnxgkvcv4il93myzvei2h5&amp;dl=1</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.adam-tech.musically</string>
+                <key>bundle-version</key>
+                <string>44.4.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>BHtiktok Adam Tech</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
